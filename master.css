@@ -322,3 +322,44 @@ form input[type="submit"]:hover, form input[type="reset"]:hover {
         font-size: 14px;
     }
 }
+/* تنسيق عام */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* تنسيق الصورة في الهيدر */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* جعل النص في المنتصف على الشاشات الصغيرة */
+@media (max-width: 768px) {
+    header h1, header h2 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    nav details {
+        display: block;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    /* تصغير حجم الصور في قسم المتحدثين */
+    .Speakers img {
+        width: 90%;
+        height: auto;
+    }
+
+    /* تحسين استجابة الفورم */
+    form input, form textarea, form select {
+        width: 90%;
+    }
+}
