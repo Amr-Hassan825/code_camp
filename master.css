@@ -1,0 +1,324 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+header {
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInDown 1s ease-out;
+}
+
+header h1 {
+    font-size: 36px;
+    margin: 10px 0;
+    animation: fadeIn 1.5s ease-out;
+}
+
+header h2 {
+    font-size: 24px;
+    opacity: 0.9;
+    animation: fadeIn 2s ease-out;
+}
+
+header img {
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    animation: zoomIn 1.5s ease-out;
+}
+
+/* Navigation Styles */
+nav {
+    margin-top: 20px;
+    animation: fadeInUp 1s ease-out;
+}
+
+nav details {
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff4757;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    animation: fadeInUp 1s ease-out;
+}
+
+section h2 {
+    font-size: 28px;
+    color: #0072ff;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+blockquote {
+    background: #e0f7ff;
+    border-left: 5px solid #0072ff;
+    padding: 15px;
+    margin: 20px 0;
+    font-style: italic;
+    animation: fadeInLeft 1s ease-out;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Speakers Section Styles */
+.speakers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.speakers article {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1s ease-out;
+}
+
+.speakers article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.speakers img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    animation: zoomIn 1s ease-out;
+}
+
+.speakers figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Schedule Table Styles */
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-out;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background: #0072ff;
+    color: white;
+}
+
+table tr:hover {
+    background: #f0f2f5;
+}
+
+/* Aside (Highlights) Styles */
+aside {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    animation: fadeInUp 1s ease-out;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+aside mark {
+    background: #e0f7ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: fadeInUp 1s ease-out;
+}
+
+footer a {
+    color: #0072ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff4757;
+}
+
+/* Form Styles */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    animation: fadeInUp 1s ease-out;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    border: 1px solid #0072ff;
+    box-shadow: 0 0 10px rgba(0, 114, 255, 0.2);
+}
+
+form input[type="submit"], form input[type="reset"] {
+    background: #0072ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background: #005bb5;
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    header h2 {
+        font-size: 20px;
+    }
+
+    .speakers article {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+}
