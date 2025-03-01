@@ -8,14 +8,6 @@ body {
     line-height: 1.6;
 }
 
-.header-image {
-    width: 70%; /* يمكنك تعديل النسبة حسب الحاجة */
-    max-width: 800px; /* تحديد الحد الأقصى للحجم */
-    height: auto; /* للحفاظ على تناسب الأبعاد */
-    display: block;
-    margin: 0 auto; /* لتوسيط الصورة */
-}
-
 
 /* Header Styles */
 header {
@@ -36,11 +28,13 @@ header h2 {
 }
 
 .header-image {
-    width: 100%;
+    width: 60%; /* تصغير عرض الصورة */
+    max-width: 600px; /* تقليل الحجم الأقصى */
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
+
 
 /* Navigation Styles */
 nav details {
