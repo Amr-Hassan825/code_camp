@@ -8,6 +8,15 @@ body {
     line-height: 1.6;
 }
 
+.header-image {
+    width: 70%; /* يمكنك تعديل النسبة حسب الحاجة */
+    max-width: 800px; /* تحديد الحد الأقصى للحجم */
+    height: auto; /* للحفاظ على تناسب الأبعاد */
+    display: block;
+    margin: 0 auto; /* لتوسيط الصورة */
+}
+
+
 /* Header Styles */
 header {
     background: linear-gradient(to right, #0072ff, #00c6ff);
