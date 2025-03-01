@@ -28,8 +28,8 @@ header h2 {
 }
 
 .header-image {
-    width: 60%; /* تصغير عرض الصورة */
-    max-width: 600px; /* تقليل الحجم الأقصى */
+    width: 60%; 
+    max-width: 600px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
